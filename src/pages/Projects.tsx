@@ -1,9 +1,11 @@
+import Content from '../components/Content'
+
 function Projects() {
   return (
-    <div>
+    <Content>
       <h1>Projects</h1>
       <p>Check out my work</p>
-    </div>
+    </Content>
   )
 }
 

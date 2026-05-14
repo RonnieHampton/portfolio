@@ -1,9 +1,11 @@
+import Content from '../components/Content'
+
 function About() {
   return (
-    <div>
+    <Content>
       <h1>About</h1>
       <p>Learn more about me</p>
-    </div>
+    </Content>
   )
 }
 

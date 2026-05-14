@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 
 type NavlinkProps = {
-  target: string
+  desc: string
   path: string
 }
 
-function Navlink({ target, path }: NavlinkProps) {
-    return <Link to={path}>{target}</Link>
+function Navlink({ desc, path }: NavlinkProps) {
+    return <Link to={path}>{desc}</Link>
 }
 
 export default Navlink

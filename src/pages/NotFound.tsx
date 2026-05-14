@@ -1,9 +1,11 @@
+import Content from '../components/Content'
+
 function NotFound() {
   return (
-    <div>
+    <Content>
       <h1>404 - Page Not Found</h1>
       <p>The page you're looking for doesn't exist</p>
-    </div>
+    </Content>
   )
 }
 

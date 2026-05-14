@@ -1,0 +1,5 @@
+.content {
+  width: min(100% - 2rem, 1100px);
+  margin: 0 auto;
+  padding: 4rem 0;
+}

@@ -1,13 +1,16 @@
 import Navlink from './Navlink.tsx'
+import './Navbar.css'
 
 function Navbar() {
     return (
-        <nav>
-            <Navlink target="Home" path="/" />
-            <Navlink target="About" path="/about" />
-            <Navlink target="Projects" path="/projects" />
-            <Navlink target="Contact" path="/contact" />
-        </nav>
+        <header>
+            <nav>
+                <Navlink desc="Home" path="/" />
+                <Navlink desc="About" path="/about" />
+                <Navlink desc="Projects" path="/projects" />
+                <Navlink desc="Contact" path="/contact" />
+            </nav>
+        </header>
     )
 }
 
