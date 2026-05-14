@@ -1,0 +1,23 @@
+.projects-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 6rem 1.5rem;
+}
+
+.projects-card {
+  max-width: 700px;
+  text-align: center;
+}
+
+.projects-card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.projects-card p {
+  color: #d1d5db;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
